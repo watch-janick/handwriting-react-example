@@ -1,0 +1,399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ControlledSelect should render correctly with choices 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ControlledSelect
+    choices={
+      Array [
+        Object {
+          "id": "31SB3NWR00E0",
+          "title": "Alder",
+        },
+        Object {
+          "id": "31SF81NG00ES",
+          "title": "Kelly",
+        },
+      ]
+    }
+    selectChoice={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <InputGroupAddon
+          addonType="prepend"
+          tag="div"
+        >
+          Handwriting style
+        </InputGroupAddon>,
+        <Input
+          id="handwriting-styles"
+          onChange={[Function]}
+          type="select"
+          value=""
+        >
+          <option
+            value="31SB3NWR00E0"
+          >
+            Alder
+          </option>
+          <option
+            value="31SF81NG00ES"
+          >
+            Kelly
+          </option>
+        </Input>,
+      ],
+      "tag": "div",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "addonType": "prepend",
+          "children": "Handwriting style",
+          "tag": "div",
+        },
+        "ref": null,
+        "rendered": "Handwriting style",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <option
+              value="31SB3NWR00E0"
+            >
+              Alder
+            </option>,
+            <option
+              value="31SF81NG00ES"
+            >
+              Kelly
+            </option>,
+          ],
+          "id": "handwriting-styles",
+          "onChange": [Function],
+          "type": "select",
+          "value": "",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "31SB3NWR00E0",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Alder",
+              "value": "31SB3NWR00E0",
+            },
+            "ref": null,
+            "rendered": "Alder",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "31SF81NG00ES",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Kelly",
+              "value": "31SF81NG00ES",
+            },
+            "ref": null,
+            "rendered": "Kelly",
+            "type": "option",
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <InputGroupAddon
+            addonType="prepend"
+            tag="div"
+          >
+            Handwriting style
+          </InputGroupAddon>,
+          <Input
+            id="handwriting-styles"
+            onChange={[Function]}
+            type="select"
+            value=""
+          >
+            <option
+              value="31SB3NWR00E0"
+            >
+              Alder
+            </option>
+            <option
+              value="31SF81NG00ES"
+            >
+              Kelly
+            </option>
+          </Input>,
+        ],
+        "tag": "div",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "addonType": "prepend",
+            "children": "Handwriting style",
+            "tag": "div",
+          },
+          "ref": null,
+          "rendered": "Handwriting style",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <option
+                value="31SB3NWR00E0"
+              >
+                Alder
+              </option>,
+              <option
+                value="31SF81NG00ES"
+              >
+                Kelly
+              </option>,
+            ],
+            "id": "handwriting-styles",
+            "onChange": [Function],
+            "type": "select",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "31SB3NWR00E0",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Alder",
+                "value": "31SB3NWR00E0",
+              },
+              "ref": null,
+              "rendered": "Alder",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "31SF81NG00ES",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Kelly",
+                "value": "31SF81NG00ES",
+              },
+              "ref": null,
+              "rendered": "Kelly",
+              "type": "option",
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`ControlledSelect should render correctly with minimal attributes 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ControlledSelect
+    selectChoice={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <InputGroupAddon
+          addonType="prepend"
+          tag="div"
+        >
+          Handwriting style
+        </InputGroupAddon>,
+        <Input
+          id="handwriting-styles"
+          onChange={[Function]}
+          type="select"
+          value=""
+        />,
+      ],
+      "tag": "div",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "addonType": "prepend",
+          "children": "Handwriting style",
+          "tag": "div",
+        },
+        "ref": null,
+        "rendered": "Handwriting style",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": undefined,
+          "id": "handwriting-styles",
+          "onChange": [Function],
+          "type": "select",
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <InputGroupAddon
+            addonType="prepend"
+            tag="div"
+          >
+            Handwriting style
+          </InputGroupAddon>,
+          <Input
+            id="handwriting-styles"
+            onChange={[Function]}
+            type="select"
+            value=""
+          />,
+        ],
+        "tag": "div",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "addonType": "prepend",
+            "children": "Handwriting style",
+            "tag": "div",
+          },
+          "ref": null,
+          "rendered": "Handwriting style",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": undefined,
+            "id": "handwriting-styles",
+            "onChange": [Function],
+            "type": "select",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

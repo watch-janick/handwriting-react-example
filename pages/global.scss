@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+  html {
+  background: url(https://images.unsplash.com/photo-1530518309799-9db5fc42276b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b784735a7a03b5fee7bf5cc1150957ed&auto=format&fit=crop&w=2275&q=80) no-repeat center bottom fixed;
+  background-size: cover;
+
+  body {
+    background: transparent;
+  }
+
+  h1 {
+    font-size: 90px;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 40px;
+  }
+
+  #user-input {
+    margin-top: 20px;
+    height: 40vh;
+  }
+
+  #handwritten-image {
+    width: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}

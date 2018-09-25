@@ -1,0 +1,1158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render correctly with full attributes 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Home
+    choices={
+      Array [
+        Object {
+          "id": "31SB3NWR00E0",
+          "title": "Alder",
+        },
+        Object {
+          "id": "31SF81NG00ES",
+          "title": "Kelly",
+        },
+      ]
+    }
+    fetchImage={[Function]}
+    handwrittenImage="https://images.unsplash.com/photo-1530518309799-9db5fc42276b?ixlib=rb-0.3.5…EyMDd9&s=b784735…&auto=format&fit=crop&w=2275&q=80"
+    selectChoice={[Function]}
+    selectedChoice={
+      Object {
+        "id": "31SF81NG00ES",
+        "title": "Kelly",
+      }
+    }
+    updateText={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Handwriting
+        </h1>,
+        <Row
+          tag="div"
+        >
+          <Col
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Form
+              tag="form"
+            >
+              <ControlledSelect
+                choices={
+                  Array [
+                    Object {
+                      "id": "31SB3NWR00E0",
+                      "title": "Alder",
+                    },
+                    Object {
+                      "id": "31SF81NG00ES",
+                      "title": "Kelly",
+                    },
+                  ]
+                }
+                selectChoice={[Function]}
+                selectedChoice="31SF81NG00ES"
+              />
+              <UserInput
+                defaultText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur."
+                onChange={[Function]}
+              />
+            </Form>
+          </Col>
+          <Col
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <HandwrittenDisplay
+              image="https://images.unsplash.com/photo-1530518309799-9db5fc42276b?ixlib=rb-0.3.5…EyMDd9&s=b784735…&auto=format&fit=crop&w=2275&q=80"
+            />
+          </Col>
+        </Row>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Handwriting",
+        },
+        "ref": null,
+        "rendered": "Handwriting",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Form
+                tag="form"
+              >
+                <ControlledSelect
+                  choices={
+                    Array [
+                      Object {
+                        "id": "31SB3NWR00E0",
+                        "title": "Alder",
+                      },
+                      Object {
+                        "id": "31SF81NG00ES",
+                        "title": "Kelly",
+                      },
+                    ]
+                  }
+                  selectChoice={[Function]}
+                  selectedChoice="31SF81NG00ES"
+                />
+                <UserInput
+                  defaultText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur."
+                  onChange={[Function]}
+                />
+              </Form>
+            </Col>,
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <HandwrittenDisplay
+                image="https://images.unsplash.com/photo-1530518309799-9db5fc42276b?ixlib=rb-0.3.5…EyMDd9&s=b784735…&auto=format&fit=crop&w=2275&q=80"
+              />
+            </Col>,
+          ],
+          "tag": "div",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <Form
+                tag="form"
+              >
+                <ControlledSelect
+                  choices={
+                    Array [
+                      Object {
+                        "id": "31SB3NWR00E0",
+                        "title": "Alder",
+                      },
+                      Object {
+                        "id": "31SF81NG00ES",
+                        "title": "Kelly",
+                      },
+                    ]
+                  }
+                  selectChoice={[Function]}
+                  selectedChoice="31SF81NG00ES"
+                />
+                <UserInput
+                  defaultText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur."
+                  onChange={[Function]}
+                />
+              </Form>,
+              "tag": "div",
+              "widths": Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <ControlledSelect
+                    choices={
+                      Array [
+                        Object {
+                          "id": "31SB3NWR00E0",
+                          "title": "Alder",
+                        },
+                        Object {
+                          "id": "31SF81NG00ES",
+                          "title": "Kelly",
+                        },
+                      ]
+                    }
+                    selectChoice={[Function]}
+                    selectedChoice="31SF81NG00ES"
+                  />,
+                  <UserInput
+                    defaultText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur."
+                    onChange={[Function]}
+                  />,
+                ],
+                "tag": "form",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "choices": Array [
+                      Object {
+                        "id": "31SB3NWR00E0",
+                        "title": "Alder",
+                      },
+                      Object {
+                        "id": "31SF81NG00ES",
+                        "title": "Kelly",
+                      },
+                    ],
+                    "selectChoice": [Function],
+                    "selectedChoice": "31SF81NG00ES",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur.",
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <HandwrittenDisplay
+                image="https://images.unsplash.com/photo-1530518309799-9db5fc42276b?ixlib=rb-0.3.5…EyMDd9&s=b784735…&auto=format&fit=crop&w=2275&q=80"
+              />,
+              "tag": "div",
+              "widths": Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "image": "https://images.unsplash.com/photo-1530518309799-9db5fc42276b?ixlib=rb-0.3.5…EyMDd9&s=b784735…&auto=format&fit=crop&w=2275&q=80",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Handwriting
+          </h1>,
+          <Row
+            tag="div"
+          >
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Form
+                tag="form"
+              >
+                <ControlledSelect
+                  choices={
+                    Array [
+                      Object {
+                        "id": "31SB3NWR00E0",
+                        "title": "Alder",
+                      },
+                      Object {
+                        "id": "31SF81NG00ES",
+                        "title": "Kelly",
+                      },
+                    ]
+                  }
+                  selectChoice={[Function]}
+                  selectedChoice="31SF81NG00ES"
+                />
+                <UserInput
+                  defaultText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur."
+                  onChange={[Function]}
+                />
+              </Form>
+            </Col>
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <HandwrittenDisplay
+                image="https://images.unsplash.com/photo-1530518309799-9db5fc42276b?ixlib=rb-0.3.5…EyMDd9&s=b784735…&auto=format&fit=crop&w=2275&q=80"
+              />
+            </Col>
+          </Row>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Handwriting",
+          },
+          "ref": null,
+          "rendered": "Handwriting",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Col
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <Form
+                  tag="form"
+                >
+                  <ControlledSelect
+                    choices={
+                      Array [
+                        Object {
+                          "id": "31SB3NWR00E0",
+                          "title": "Alder",
+                        },
+                        Object {
+                          "id": "31SF81NG00ES",
+                          "title": "Kelly",
+                        },
+                      ]
+                    }
+                    selectChoice={[Function]}
+                    selectedChoice="31SF81NG00ES"
+                  />
+                  <UserInput
+                    defaultText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur."
+                    onChange={[Function]}
+                  />
+                </Form>
+              </Col>,
+              <Col
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <HandwrittenDisplay
+                  image="https://images.unsplash.com/photo-1530518309799-9db5fc42276b?ixlib=rb-0.3.5…EyMDd9&s=b784735…&auto=format&fit=crop&w=2275&q=80"
+                />
+              </Col>,
+            ],
+            "tag": "div",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <Form
+                  tag="form"
+                >
+                  <ControlledSelect
+                    choices={
+                      Array [
+                        Object {
+                          "id": "31SB3NWR00E0",
+                          "title": "Alder",
+                        },
+                        Object {
+                          "id": "31SF81NG00ES",
+                          "title": "Kelly",
+                        },
+                      ]
+                    }
+                    selectChoice={[Function]}
+                    selectedChoice="31SF81NG00ES"
+                  />
+                  <UserInput
+                    defaultText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur."
+                    onChange={[Function]}
+                  />
+                </Form>,
+                "tag": "div",
+                "widths": Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <ControlledSelect
+                      choices={
+                        Array [
+                          Object {
+                            "id": "31SB3NWR00E0",
+                            "title": "Alder",
+                          },
+                          Object {
+                            "id": "31SF81NG00ES",
+                            "title": "Kelly",
+                          },
+                        ]
+                      }
+                      selectChoice={[Function]}
+                      selectedChoice="31SF81NG00ES"
+                    />,
+                    <UserInput
+                      defaultText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur."
+                      onChange={[Function]}
+                    />,
+                  ],
+                  "tag": "form",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "choices": Array [
+                        Object {
+                          "id": "31SB3NWR00E0",
+                          "title": "Alder",
+                        },
+                        Object {
+                          "id": "31SF81NG00ES",
+                          "title": "Kelly",
+                        },
+                      ],
+                      "selectChoice": [Function],
+                      "selectedChoice": "31SF81NG00ES",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur.",
+                      "onChange": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <HandwrittenDisplay
+                  image="https://images.unsplash.com/photo-1530518309799-9db5fc42276b?ixlib=rb-0.3.5…EyMDd9&s=b784735…&auto=format&fit=crop&w=2275&q=80"
+                />,
+                "tag": "div",
+                "widths": Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "image": "https://images.unsplash.com/photo-1530518309799-9db5fc42276b?ixlib=rb-0.3.5…EyMDd9&s=b784735…&auto=format&fit=crop&w=2275&q=80",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Home should render correctly with minimal attributes 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Home
+    fetchImage={[Function]}
+    selectChoice={[Function]}
+    updateText={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Handwriting
+        </h1>,
+        <Row
+          tag="div"
+        >
+          <Col
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            <Form
+              tag="form"
+            >
+              <ControlledSelect
+                choices={undefined}
+                selectChoice={[Function]}
+                selectedChoice=""
+              />
+              <UserInput
+                defaultText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur."
+                onChange={[Function]}
+              />
+            </Form>
+          </Col>
+          <Col
+            tag="div"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          />
+        </Row>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Handwriting",
+        },
+        "ref": null,
+        "rendered": "Handwriting",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Form
+                tag="form"
+              >
+                <ControlledSelect
+                  choices={undefined}
+                  selectChoice={[Function]}
+                  selectedChoice=""
+                />
+                <UserInput
+                  defaultText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur."
+                  onChange={[Function]}
+                />
+              </Form>
+            </Col>,
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            />,
+          ],
+          "tag": "div",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <Form
+                tag="form"
+              >
+                <ControlledSelect
+                  choices={undefined}
+                  selectChoice={[Function]}
+                  selectedChoice=""
+                />
+                <UserInput
+                  defaultText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur."
+                  onChange={[Function]}
+                />
+              </Form>,
+              "tag": "div",
+              "widths": Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <ControlledSelect
+                    choices={undefined}
+                    selectChoice={[Function]}
+                    selectedChoice=""
+                  />,
+                  <UserInput
+                    defaultText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur."
+                    onChange={[Function]}
+                  />,
+                ],
+                "tag": "form",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "choices": undefined,
+                    "selectChoice": [Function],
+                    "selectedChoice": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur.",
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": undefined,
+              "tag": "div",
+              "widths": Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Handwriting
+          </h1>,
+          <Row
+            tag="div"
+          >
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            >
+              <Form
+                tag="form"
+              >
+                <ControlledSelect
+                  choices={undefined}
+                  selectChoice={[Function]}
+                  selectedChoice=""
+                />
+                <UserInput
+                  defaultText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur."
+                  onChange={[Function]}
+                />
+              </Form>
+            </Col>
+            <Col
+              tag="div"
+              widths={
+                Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ]
+              }
+            />
+          </Row>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Handwriting",
+          },
+          "ref": null,
+          "rendered": "Handwriting",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Col
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              >
+                <Form
+                  tag="form"
+                >
+                  <ControlledSelect
+                    choices={undefined}
+                    selectChoice={[Function]}
+                    selectedChoice=""
+                  />
+                  <UserInput
+                    defaultText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur."
+                    onChange={[Function]}
+                  />
+                </Form>
+              </Col>,
+              <Col
+                tag="div"
+                widths={
+                  Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ]
+                }
+              />,
+            ],
+            "tag": "div",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <Form
+                  tag="form"
+                >
+                  <ControlledSelect
+                    choices={undefined}
+                    selectChoice={[Function]}
+                    selectedChoice=""
+                  />
+                  <UserInput
+                    defaultText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur."
+                    onChange={[Function]}
+                  />
+                </Form>,
+                "tag": "div",
+                "widths": Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <ControlledSelect
+                      choices={undefined}
+                      selectChoice={[Function]}
+                      selectedChoice=""
+                    />,
+                    <UserInput
+                      defaultText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur."
+                      onChange={[Function]}
+                    />,
+                  ],
+                  "tag": "form",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "choices": undefined,
+                      "selectChoice": [Function],
+                      "selectedChoice": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur nisi dui, semper vel feugiat et, lacinia quis ligula.Sed et lectus ac urna porttitor scelerisque at non augue.Nullam volutpat tellus at bibendum tristique.Nulla at dignissim sapien.Integer cursus viverra massa, vel vehicula est dignissim eu.Mauris nunc lorem, ornare a lacus at, sodales dapibus augue.Duis condimentum gravida erat, sit amet pretium ligula elementum non.
+
+Vestibulum eget accumsan sem.Aliquam placerat sit amet odio at pharetra.Suspendisse nec porttitor diam, eget congue purus.Integer ultrices ante nibh, ac cursus est aliquam sed.In scelerisque orci et lorem rutrum, at condimentum libero vestibulum.Donec aliquet finibus rhoncus.Etiam cursus consectetur lorem vitae consectetur.",
+                      "onChange": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": undefined,
+                "tag": "div",
+                "widths": Array [
+                  "xs",
+                  "sm",
+                  "md",
+                  "lg",
+                  "xl",
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
